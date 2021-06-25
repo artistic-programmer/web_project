@@ -6,12 +6,15 @@ const Headstyle = {
   lineHeight: "60px",
   background:"#0ff",
   color: "#fff",
-  textAlign: "center"
+  textAlign: "center",
+  textShadow: "0px 0px 5px #000"
   
 }
 
 export default function Heading(){
   return(
-    <h1 style={Headstyle}>This is heading</h1>
+    <h1 style={Headstyle}>
+      Anshu Kumar
+    </h1>
     );
 }

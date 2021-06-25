@@ -1,34 +1,14 @@
 import React from 'react';
-//import logo from './logo.svg';
-import './App.css';
-import Heading from "./Heading";
+import Loader from "./Loader";
+import Clock from "./Clock";
 
 function App() {
   return(
     <>
-      <Heading />
-      <Heading /> 
+      <Loader />
+      <Clock />
     < />
   );
-  {
-    /*const [data, setData] = React.useState(null);
-  React.useEffect(() => {
-    fetch("/api")
-      .then((res) => res.json())
-      .then((data) => setData(data.message));
-  }, []);
-return (
-    <div className="App">
-      <Heading/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {!data ? "Loading...": data}
-        </p>
-      </header>
-    </div>
-  );*/
-  }
 }
 
 export default App;
